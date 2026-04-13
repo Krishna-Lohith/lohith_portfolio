@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Arindam Saikia — Senior Program Manager</title>
+<title>Lohith Mothukuri | AI/ML Engineer</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -28,7 +28,6 @@
   --teal-bdr:  rgba(56,178,160,0.28);
   --cream:     #F2EDE4;
 }
-
 *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
 html { scroll-behavior:smooth; }
 body {
@@ -42,15 +41,13 @@ body {
 ::-webkit-scrollbar { width:3px; }
 ::-webkit-scrollbar-track { background: var(--ink); }
 ::-webkit-scrollbar-thumb { background: var(--goldbdr2); }
-
-/* ─── CANVAS TEXTURE ─── */
+/* CANVAS TEXTURE */
 body::after {
   content:'';
   position:fixed; inset:0; z-index:0; pointer-events:none;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4'%3E%3Crect width='1' height='1' fill='rgba(255,255,255,0.018)'/%3E%3C/svg%3E");
 }
-
-/* ─── NAV ─── */
+/* NAV */
 nav {
   position:fixed; top:0; width:100%; z-index:999;
   height:68px; padding:0 7%;
@@ -81,8 +78,7 @@ nav a:hover { color:var(--gold2); }
   transition:background .2s !important;
 }
 .n-hire:hover { background:rgba(191,155,90,0.22) !important; }
-
-/* ─── HERO ─── */
+/* HERO */
 #home {
   position:relative; z-index:1;
   min-height:100vh; display:flex; align-items:center;
@@ -112,7 +108,6 @@ nav a:hover { color:var(--gold2); }
   max-width:1260px; margin:0 auto; width:100%;
   display:grid; grid-template-columns:1fr 380px; gap:90px; align-items:center;
 }
-
 /* left */
 .hero-tag {
   display:inline-flex; align-items:center; gap:10px;
@@ -122,7 +117,6 @@ nav a:hover { color:var(--gold2); }
   opacity:0; animation:fadeUp .7s .1s ease forwards;
 }
 .hero-tag-line { width:36px; height:1px; background:var(--gold); }
-
 .hero-h1 {
   font-family:'Playfair Display',serif;
   font-size:clamp(3.4rem,5.5vw,5.2rem);
@@ -132,26 +126,22 @@ nav a:hover { color:var(--gold2); }
   opacity:0; animation:fadeUp .7s .18s ease forwards;
 }
 .hero-h1 span { color:var(--gold2); font-style:italic; font-weight:400; }
-
 .hero-divider {
   width:56px; height:2px;
   background:linear-gradient(90deg, var(--gold), transparent);
   margin:22px 0;
   opacity:0; animation:fadeUp .7s .25s ease forwards;
 }
-
 .hero-tagline {
   font-size:0.78rem; font-weight:500; letter-spacing:0.12em; text-transform:uppercase;
   color:var(--teal); margin-bottom:22px;
   opacity:0; animation:fadeUp .7s .3s ease forwards;
 }
-
 .hero-desc {
   max-width:520px; font-size:0.93rem; color:var(--slate2); line-height:1.95;
   margin-bottom:40px;
   opacity:0; animation:fadeUp .7s .36s ease forwards;
 }
-
 .hero-kpis {
   display:flex; gap:0; margin-bottom:44px;
   border:1px solid var(--bdr); border-radius:6px; overflow:hidden;
@@ -172,7 +162,6 @@ nav a:hover { color:var(--gold2); }
   font-size:0.62rem; font-weight:500; letter-spacing:0.14em; text-transform:uppercase;
   color:var(--slate);
 }
-
 .hero-btns {
   display:flex; gap:14px; flex-wrap:wrap;
   opacity:0; animation:fadeUp .7s .48s ease forwards;
@@ -193,7 +182,6 @@ nav a:hover { color:var(--gold2); }
   text-decoration:none; transition:border-color .2s,color .2s;
 }
 .btn-b:hover { border-color:var(--goldbdr2); color:var(--gold2); }
-
 /* portrait */
 .portrait-col {
   display:flex; flex-direction:column; align-items:center;
@@ -249,7 +237,6 @@ nav a:hover { color:var(--gold2); }
 }
 @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
 .avail-txt { font-size:0.68rem; font-weight:600; letter-spacing:0.1em; color:var(--gold3); text-transform:uppercase; }
-
 /* badge row below portrait */
 .badge-row { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin-top:50px; }
 .pbadge {
@@ -258,35 +245,29 @@ nav a:hover { color:var(--gold2); }
   background:var(--goldglow); border:1px solid var(--goldbdr);
   color:var(--gold2);
 }
-
-/* ─── ANIMATIONS ─── */
+/* ANIMATIONS */
 @keyframes fadeUp {
   from { opacity:0; transform:translateY(22px); }
   to   { opacity:1; transform:translateY(0); }
 }
-
-/* ─── SECTION SHELL ─── */
+/* SECTION SHELL */
 .sec { position:relative; z-index:1; padding:104px 7%; }
 .sec.alt { background:var(--ink2); }
 .sec-max { max-width:1260px; margin:0 auto; }
-
 .overline {
   display:flex; align-items:center; gap:10px; margin-bottom:12px;
   font-size:0.63rem; font-weight:600; letter-spacing:0.24em; text-transform:uppercase;
   color:var(--gold);
 }
 .overline::before { content:''; width:28px; height:1px; background:var(--gold); }
-
 .sec-title {
   font-family:'Playfair Display',serif;
   font-size:clamp(2rem,3.2vw,2.75rem); font-weight:700;
   color:#fff; line-height:1.15; margin-bottom:60px;
 }
 .sec-title em { font-style:italic; font-weight:400; color:var(--gold2); }
-
 .hr { max-width:1260px; margin:0 auto; height:1px; background:linear-gradient(90deg,transparent,var(--bdr),transparent); }
-
-/* ─── ABOUT ─── */
+/* ABOUT */
 .about-grid { display:grid; grid-template-columns:1.15fr 0.85fr; gap:80px; align-items:start; }
 .about-body { font-size:0.91rem; color:var(--slate2); line-height:2; }
 .about-body p { margin-bottom:18px; }
@@ -329,8 +310,7 @@ nav a:hover { color:var(--gold2); }
 }
 .pill-on  { background:var(--teal-soft); border:1px solid var(--teal-bdr); color:var(--teal); }
 .pill-wip { background:var(--goldglow); border:1px solid var(--goldbdr); color:var(--gold2); }
-
-/* ─── SKILLS ─── */
+/* SKILLS */
 .skill-row { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-bottom:18px; }
 .sk {
   padding:28px 24px; border-radius:7px;
@@ -372,8 +352,7 @@ nav a:hover { color:var(--gold2); }
   background:var(--goldglow); transition:color .15s,background .15s;
 }
 .tool:hover { color:var(--gold3); background:rgba(191,155,90,0.2); }
-
-/* ─── EXPERIENCE ─── */
+/* EXPERIENCE */
 .xp-wrap { padding-left:36px; position:relative; }
 .xp-wrap::before {
   content:''; position:absolute; left:0; top:6px; bottom:0; width:1px;
@@ -412,8 +391,7 @@ nav a:hover { color:var(--gold2); }
   content:''; position:absolute; left:0; top:10px;
   width:6px; height:1px; background:var(--gold);
 }
-
-/* ─── PROJECTS ─── */
+/* PROJECTS */
 .pj-grid { display:grid; grid-template-columns:1fr 1fr; gap:22px; }
 .pj {
   padding:36px 32px; border-radius:8px;
@@ -437,8 +415,12 @@ nav a:hover { color:var(--gold2); }
 .pj-title { font-family:'Playfair Display',serif; font-size:1.18rem; font-weight:600; color:#fff; margin-bottom:8px; line-height:1.3; }
 .pj-org { font-size:0.73rem; color:var(--slate); margin-bottom:18px; padding-bottom:18px; border-bottom:1px solid var(--bdr); }
 .pj-desc { font-size:0.84rem; color:var(--slate2); line-height:1.88; }
-
-/* ─── EDUCATION ─── */
+.pj-stack { display:flex; flex-wrap:wrap; gap:7px; margin-top:18px; }
+.pj-tag {
+  font-size:0.68rem; color:var(--teal); padding:3px 10px;
+  border-radius:3px; border:1px solid var(--teal-bdr); background:var(--teal-soft);
+}
+/* EDUCATION */
 .edu-grid { display:grid; grid-template-columns:1fr 1fr; gap:22px; }
 .edu {
   display:flex; gap:22px; align-items:flex-start;
@@ -456,8 +438,7 @@ nav a:hover { color:var(--gold2); }
 .edu-deg { font-family:'Playfair Display',serif; font-size:1.05rem; font-weight:600; color:#fff; margin-bottom:6px; line-height:1.3; }
 .edu-sch { font-size:0.78rem; color:var(--slate2); margin-bottom:6px; line-height:1.5; }
 .edu-yr  { font-size:0.68rem; font-weight:600; letter-spacing:0.1em; color:var(--gold); }
-
-/* ─── CONTACT ─── */
+/* CONTACT */
 .ct-grid { display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:center; }
 .ct-hl { font-family:'Playfair Display',serif; font-size:clamp(2rem,3vw,2.7rem); font-weight:700; color:#fff; line-height:1.2; margin-bottom:18px; }
 .ct-hl em { font-style:italic; font-weight:400; color:var(--gold2); }
@@ -484,8 +465,7 @@ nav a:hover { color:var(--gold2); }
 .ct-ico svg { width:15px; height:15px; stroke:var(--gold); stroke-width:1.8; fill:none; stroke-linecap:round; stroke-linejoin:round; }
 .ct-lbl { font-size:0.62rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--slate); display:block; margin-bottom:2px; }
 .ct-val { font-size:0.84rem; font-weight:500; color:var(--cream); }
-
-/* ─── FOOTER ─── */
+/* FOOTER */
 footer {
   position:relative; z-index:1;
   background:var(--ink2); border-top:1px solid var(--bdr);
@@ -497,8 +477,7 @@ footer {
 .ft-r { display:flex; gap:22px; }
 .ft-r a { font-size:0.68rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--slate); text-decoration:none; transition:color .2s; }
 .ft-r a:hover { color:var(--gold2); }
-
-/* ─── RESPONSIVE ─── */
+/* RESPONSIVE */
 @media(max-width:1100px){
   .hero-wrap { grid-template-columns:1fr; gap:60px; }
   .portrait-col { order:-1; }
@@ -520,14 +499,13 @@ footer {
 </style>
 </head>
 <body>
-
 <!-- NAV -->
 <nav>
   <a class="n-logo" href="#home">
-    <div class="n-seal">AS</div>
+    <div class="n-seal">LM</div>
     <div class="n-text">
-      <div class="n-name">Arindam Saikia</div>
-      <div class="n-sub">Senior Program Manager</div>
+      <div class="n-name">Lohith Mothukuri</div>
+      <div class="n-sub">AI/ML Engineer</div>
     </div>
   </a>
   <ul>
@@ -539,40 +517,37 @@ footer {
     <li><a href="#contact" class="n-hire">Hire Me</a></li>
   </ul>
 </nav>
-
 <!-- HERO -->
 <section id="home">
   <div class="hero-glow"></div>
   <div class="hero-glow2"></div>
   <div class="hero-grid-lines"></div>
   <div class="hero-wrap">
-
     <!-- LEFT -->
     <div>
-      <div class="hero-tag"><span class="hero-tag-line"></span>Senior Program Manager · Dallas, TX</div>
-      <h1 class="hero-h1">Arindam<br><span>Saikia</span></h1>
+      <div class="hero-tag"><span class="hero-tag-line"></span>AI/ML Engineer &nbsp;·&nbsp; Atlanta, GA</div>
+      <h1 class="hero-h1">Lohith<br><span>Mothukuri</span></h1>
       <div class="hero-divider"></div>
-      <p class="hero-tagline">Digital Transformation &nbsp;·&nbsp; Cloud Migration &nbsp;·&nbsp; Cross-Functional Delivery</p>
-      <p class="hero-desc">Results-driven Program Manager with an MBA, Lean Six Sigma Green Belt, and 6+ years leading complex cross-functional programs across digital platforms, cloud migrations, and mission-critical operations. Proven track record of translating strategic vision into measurable outcomes.</p>
+      <p class="hero-tagline">Transaction Risk Modeling &nbsp;·&nbsp; GenAI / RAG Pipelines &nbsp;·&nbsp; MLOps</p>
+      <p class="hero-desc">AI/ML Engineer with 3+ years of experience building and deploying production-grade ML and GenAI systems, currently at Visa. Specialized in transaction risk modeling, dispute propensity scoring, anomaly detection, and RAG pipelines. MS in Computer Science, Auburn University. Actively seeking mid-level AI/ML Engineer roles in the USA.</p>
       <div class="hero-kpis">
-        <div class="kpi"><span class="kpi-val">6+</span><span class="kpi-lbl">Years Experience</span></div>
-        <div class="kpi"><span class="kpi-val">10K+</span><span class="kpi-lbl">Hours Saved</span></div>
-        <div class="kpi"><span class="kpi-val">20%</span><span class="kpi-lbl">Process Gains</span></div>
-        <div class="kpi"><span class="kpi-val">99%+</span><span class="kpi-lbl">Data Accuracy</span></div>
+        <div class="kpi"><span class="kpi-val">3+</span><span class="kpi-lbl">Years Experience</span></div>
+        <div class="kpi"><span class="kpi-val">1M+</span><span class="kpi-lbl">Daily Transactions</span></div>
+        <div class="kpi"><span class="kpi-val">12%</span><span class="kpi-lbl">Precision Gain</span></div>
+        <div class="kpi"><span class="kpi-val">35%</span><span class="kpi-lbl">Lookup Time Saved</span></div>
       </div>
       <div class="hero-btns">
         <a href="#contact" class="btn-a">Get In Touch &rarr;</a>
         <a href="#experience" class="btn-b">View Experience</a>
       </div>
     </div>
-
     <!-- RIGHT: PORTRAIT -->
     <div class="portrait-col">
       <div class="portrait-stage">
         <div class="pframe">
-          <img src="Pic_Portfolio.jpg" alt="Arindam Saikia"
+          <img src="Lohith_M Picture.png" alt="Lohith Mothukuri"
             onerror="this.style.display='none'; document.querySelector('.pframe-init').style.display='flex';">
-          <div class="pframe-init" style="display:none;">AS</div>
+          <div class="pframe-init" style="display:none;">LM</div>
           <div class="pframe-overlay"></div>
         </div>
         <!-- corner brackets -->
@@ -587,18 +562,15 @@ footer {
         </div>
       </div>
       <div class="badge-row">
-        <span class="pbadge">MBA Finance</span>
-        <span class="pbadge">Six Sigma GB</span>
-        <span class="pbadge">SMU Cox '25</span>
-        <span class="pbadge">PMP In Progress</span>
+        <span class="pbadge">MS Computer Science</span>
+        <span class="pbadge">Auburn '25</span>
+        <span class="pbadge">PyTorch</span>
+        <span class="pbadge">LangChain</span>
       </div>
     </div>
-
   </div>
 </section>
-
 <div class="hr"></div>
-
 <!-- ABOUT -->
 <section class="sec" id="about">
   <div class="sec-max">
@@ -607,161 +579,165 @@ footer {
     <div class="about-grid">
       <div>
         <div class="about-body">
-          <p>MBA (Finance) candidate at Southern Methodist University's Cox School of Business with deep expertise in program management, cloud transformation, financial modeling, and KPI-driven governance frameworks.</p>
-          <p>My career spans energy operations management, financial data research at Morningstar, enterprise cloud migrations, and strategy consulting for early-stage founders. I specialize in translating strategic vision into structured, measurable execution — bridging technical teams and executive stakeholders to deliver outcomes on time and at scale.</p>
-          <p>I believe the best program managers are equal parts strategist, communicator, and operator. Whether leading a cloud migration touching 200+ users or conducting Series A due diligence for a cybersecurity startup, I bring disciplined rigor and cross-functional fluency to every engagement.</p>
+          <p>I'm an AI/ML Engineer with 3+ years of hands-on experience designing and deploying production-grade machine learning and Generative AI systems. Currently at Visa in Atlanta, I work on transaction dispute propensity models, anomaly detection pipelines, and GenAI-powered RAG systems that serve real-time inference at scale.</p>
+          <p>My expertise spans the full MLOps lifecycle — from feature engineering and model training with PyTorch and XGBoost, to FastAPI deployment on AWS, experiment tracking with MLflow and DVC, and drift monitoring with Evidently AI and Prometheus. I've also built multi-step agentic workflows using LangChain, LangGraph, GPT-4, Claude, and Mistral over internal policy documents.</p>
+          <p>Prior to Visa, I worked as a Data Scientist at American Airlines and as a Data Analyst in the BFSI domain at Concentrix. I hold an MS in Computer Science from Auburn University and a Bachelor's in Electronics and Communication Engineering from Anurag University.</p>
         </div>
         <div class="about-nums">
-          <div class="astat"><span class="astat-n">6,000+</span><span class="astat-l">Annual Hours Saved</span></div>
-          <div class="astat"><span class="astat-n">Zero</span><span class="astat-l">Post-Release Defects</span></div>
-          <div class="astat"><span class="astat-n">99%+</span><span class="astat-l">Data Accuracy Rate</span></div>
-          <div class="astat"><span class="astat-n">200+</span><span class="astat-l">Users in KPI Framework</span></div>
+          <div class="astat"><span class="astat-n">1M+</span><span class="astat-l">Daily Transactions Processed</span></div>
+          <div class="astat"><span class="astat-n">12%</span><span class="astat-l">Model Precision Improvement</span></div>
+          <div class="astat"><span class="astat-n">35%</span><span class="astat-l">Policy Lookup Time Reduced</span></div>
+          <div class="astat"><span class="astat-n">87%</span><span class="astat-l">Flight Cancellation Prediction Accuracy</span></div>
         </div>
       </div>
       <div class="cert-stack">
         <div class="crt">
-          <div class="crt-ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M6 20v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/></svg></div>
-          <div><div class="crt-name">Lean Six Sigma Green Belt</div><div class="crt-sub">SSAA Certified</div></div>
+          <div class="crt-ico"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+          <div><div class="crt-name">PyTorch &amp; Deep Learning</div><div class="crt-sub">Neural Networks, Model Training &amp; Deployment</div></div>
           <span class="pill pill-on">Active</span>
         </div>
         <div class="crt">
           <div class="crt-ico"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 12h8M12 8v8"/></svg></div>
-          <div><div class="crt-name">Operations Management</div><div class="crt-sub">Jack Welch Institute</div></div>
+          <div><div class="crt-name">LangChain &amp; Agentic AI</div><div class="crt-sub">RAG Pipelines, LangGraph, Vector DBs</div></div>
           <span class="pill pill-on">Active</span>
         </div>
         <div class="crt">
-          <div class="crt-ico"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
-          <div><div class="crt-name">Machine Learning</div><div class="crt-sub">NIELITS</div></div>
+          <div class="crt-ico"><svg viewBox="0 0 24 24"><path d="M18 20V10M12 20V4M6 20v-6"/></svg></div>
+          <div><div class="crt-name">MLOps &amp; Cloud Deployment</div><div class="crt-sub">AWS, FastAPI, MLflow, DVC, Docker</div></div>
           <span class="pill pill-on">Active</span>
         </div>
         <div class="crt">
-          <div class="crt-ico"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-          <div><div class="crt-name">PMP Certification</div><div class="crt-sub">PMI — In Progress</div></div>
-          <span class="pill pill-wip">In Progress</span>
+          <div class="crt-ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M6 20v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/></svg></div>
+          <div><div class="crt-name">MS Computer Science</div><div class="crt-sub">Auburn University · May 2025</div></div>
+          <span class="pill pill-on">Completed</span>
         </div>
       </div>
     </div>
   </div>
 </section>
-
 <div class="hr"></div>
-
 <!-- SKILLS -->
 <section class="sec alt" id="skills">
   <div class="sec-max">
     <div class="overline">Capabilities</div>
-    <h2 class="sec-title">Core <em>Competencies</em></h2>
+    <h2 class="sec-title">Technical <em>Skills</em></h2>
     <div class="skill-row">
       <div class="sk">
-        <div class="sk-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div>
-        <div class="sk-cat">Program &amp; Delivery</div>
+        <div class="sk-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+        <div class="sk-cat">Machine Learning</div>
         <div class="tags">
-          <span class="tg">Program Lifecycle</span><span class="tg">Roadmap Planning</span><span class="tg">Backlog Prioritization</span><span class="tg">UAT &amp; Release Mgmt</span><span class="tg">Risk Governance</span><span class="tg">SLA Oversight</span><span class="tg">Dependency Mgmt</span>
+          <span class="tg">XGBoost</span><span class="tg">Scikit-learn</span><span class="tg">PyTorch</span><span class="tg">Optuna</span><span class="tg">Isolation Forest</span><span class="tg">Logistic Regression</span>
         </div>
       </div>
+      <div class="sk">
+        <div class="sk-icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <div class="sk-cat">NLP &amp; Generative AI</div>
+        <div class="tags">
+          <span class="tg">LangChain</span><span class="tg">LangGraph</span><span class="tg">FAISS</span><span class="tg">Pinecone</span><span class="tg">GPT-4</span><span class="tg">Claude</span><span class="tg">Mistral</span><span class="tg">HuggingFace</span><span class="tg">spaCy</span><span class="tg">RAG</span><span class="tg">Prompt Engineering</span>
+        </div>
+      </div>
+      <div class="sk">
+        <div class="sk-icon"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+        <div class="sk-cat">MLOps &amp; Deployment</div>
+        <div class="tags">
+          <span class="tg">FastAPI</span><span class="tg">MLflow</span><span class="tg">DVC</span><span class="tg">Evidently AI</span><span class="tg">Prometheus</span><span class="tg">Docker</span><span class="tg">Streamlit</span><span class="tg">Pydantic</span>
+        </div>
+      </div>
+    </div>
+    <div class="skill-row">
       <div class="sk">
         <div class="sk-icon"><svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
-        <div class="sk-cat">Methodology &amp; Frameworks</div>
+        <div class="sk-cat">Data Analysis &amp; Visualization</div>
         <div class="tags">
-          <span class="tg">Agile / Scrum</span><span class="tg">SAFe</span><span class="tg">KPI Framework</span><span class="tg">Change Management</span><span class="tg">Root Cause Analysis</span><span class="tg">Lean Six Sigma</span><span class="tg">Cloud Migrations</span>
+          <span class="tg">Pandas</span><span class="tg">NumPy</span><span class="tg">SciPy</span><span class="tg">Matplotlib</span><span class="tg">Seaborn</span><span class="tg">Power BI</span><span class="tg">DAX</span>
         </div>
       </div>
       <div class="sk">
-        <div class="sk-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-        <div class="sk-cat">Strategy &amp; Leadership</div>
+        <div class="sk-icon"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></div>
+        <div class="sk-cat">Cloud &amp; Data Infrastructure</div>
         <div class="tags">
-          <span class="tg">Stakeholder Governance</span><span class="tg">Executive Reporting</span><span class="tg">Cross-Functional Teams</span><span class="tg">Vendor Coordination</span><span class="tg">Financial Modeling</span><span class="tg">Resource Planning</span>
+          <span class="tg">AWS EC2</span><span class="tg">AWS Lambda</span><span class="tg">AWS S3</span><span class="tg">Apache Airflow</span><span class="tg">Databricks</span><span class="tg">DBT</span><span class="tg">Redshift</span>
+        </div>
+      </div>
+      <div class="sk">
+        <div class="sk-icon"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+        <div class="sk-cat">Languages &amp; Databases</div>
+        <div class="tags">
+          <span class="tg">Python</span><span class="tg">SQL</span><span class="tg">PostgreSQL</span><span class="tg">MySQL</span><span class="tg">Oracle</span><span class="tg">Git</span>
         </div>
       </div>
     </div>
     <div class="tools-strip">
-      <span class="t-lbl">Tools &amp; Tech</span>
-      <span class="tool">Jira</span><span class="tool">Asana</span><span class="tool">Confluence</span><span class="tool">MS Project</span><span class="tool">Tableau</span><span class="tool">Power BI</span><span class="tool">SQL</span><span class="tool">Excel (Advanced)</span>
+      <span class="t-lbl">Key Tools</span>
+      <span class="tool">PyTorch</span><span class="tool">XGBoost</span><span class="tool">LangChain</span><span class="tool">FastAPI</span><span class="tool">MLflow</span><span class="tool">AWS</span><span class="tool">Docker</span><span class="tool">Pinecone</span><span class="tool">FAISS</span><span class="tool">Streamlit</span><span class="tool">Power BI</span><span class="tool">Airflow</span>
     </div>
   </div>
 </section>
-
 <div class="hr"></div>
-
 <!-- EXPERIENCE -->
 <section class="sec" id="experience">
   <div class="sec-max">
     <div class="overline">Career History</div>
     <h2 class="sec-title">Professional <em>Experience</em></h2>
     <div class="xp-wrap">
-
       <div class="xp">
         <div class="xp-header">
-          <div class="xp-role">Finance &amp; Strategy Program Consultant</div>
-          <span class="xp-period">Feb 2025 – May 2025</span>
+          <div class="xp-role">Machine Learning Engineer</div>
+          <span class="xp-period">Aug 2024 – Present</span>
         </div>
-        <div class="xp-co"><strong>SMU Cox – William S. Spears Institute</strong> &nbsp;·&nbsp; Dallas, TX &nbsp;·&nbsp; Internship</div>
+        <div class="xp-co"><strong>Visa</strong> &nbsp;·&nbsp; Atlanta, GA</div>
         <ul class="xp-pts">
-          <li>Managed end-to-end project delivery for early-stage founders: defined scope, built execution roadmaps, and aligned product milestones with fundraising and GTM timelines.</li>
-          <li>Translated complex financial and market analyses into structured project plans, coordinating stakeholder alignment across scope, priorities, and resource allocation to support capital raises.</li>
-          <li>Developed forecasting and valuation models to drive data-informed investment and growth strategy decisions.</li>
+          <li>Developed and optimized transaction dispute propensity models using <strong>XGBoost</strong> and <strong>Optuna</strong>, improving model precision by 12% through systematic feature engineering and threshold calibration across 1M+ daily transactions.</li>
+          <li>Built anomaly detection pipelines using <strong>Isolation Forest</strong> and <strong>PyTorch</strong> to detect irregular transaction patterns across large-scale datasets, reducing false positives and improving detection reliability.</li>
+          <li>Managed model experimentation and reproducibility using <strong>MLflow, DVC, and Git</strong>, enabling systematic experiment tracking, dataset versioning, and performance evaluation in an Agile environment.</li>
+          <li>Deployed ML models as <strong>FastAPI REST</strong> services on <strong>AWS (EC2, Lambda)</strong>, serving real-time inference at scale; implemented <strong>Pydantic</strong> schema validation, <strong>Prometheus</strong> monitoring, and <strong>Streamlit</strong> dashboards to track model health and data drift in production.</li>
+          <li>Developed NLP pipelines using <strong>Hugging Face Transformers, spaCy, and sentence-transformers</strong> for text classification and entity extraction, integrating outputs into downstream risk scoring systems via REST APIs.</li>
+          <li>Designed and implemented a GenAI-powered RAG pipeline using <strong>LangChain, LangGraph, FAISS, and Pinecone</strong>; built multi-step agentic workflows using GPT-4, Claude, and Mistral for contextual querying over internal policy documents, reducing manual policy lookup time by 35%.</li>
         </ul>
       </div>
-
       <div class="xp">
         <div class="xp-header">
-          <div class="xp-role">Associate Content Researcher — Product Owner / Program Manager</div>
-          <span class="xp-period">Nov 2022 – Apr 2024</span>
+          <div class="xp-role">Data Scientist</div>
+          <span class="xp-period">Dec 2022 – Jul 2023</span>
         </div>
-        <div class="xp-co"><strong>Morningstar</strong> &nbsp;·&nbsp; Navi Mumbai, MH</div>
+        <div class="xp-co"><strong>American Airlines</strong> &nbsp;·&nbsp; Hyderabad, TG</div>
         <ul class="xp-pts">
-          <li>Owned end-to-end program delivery for enterprise-wide migration to cloud-based ML platform, realizing 6,000+ hours in annual efficiency gains.</li>
-          <li>Managed full program scope, roadmap planning, backlog prioritization, and release management across 3 internal data products.</li>
-          <li>Orchestrated cross-functional delivery across Product, Engineering, QA, Data Science, and Operations teams.</li>
-          <li>Designed KPI governance framework spanning 100+ workflows and 200+ users, achieving 10–12% efficiency improvement.</li>
-          <li>Directed UAT execution with zero post-release defects across all product launches.</li>
+          <li>Analyzed passenger boarding and delay data across 3+ hub airports using <strong>Python</strong> and <strong>SQL</strong>, identifying patterns that supported on-time performance reporting for internal stakeholders.</li>
+          <li>Built and maintained automated data pipelines to clean and consolidate flight operations data from multiple sources using <strong>Pandas, Apache Airflow, and AWS S3</strong>, improving data reliability and consistency across reporting workflows.</li>
+          <li>Developed <strong>logistic regression</strong> and <strong>XGBoost</strong> models to predict flight cancellations based on weather and crew data, achieving 87% accuracy and enabling proactive operational planning.</li>
+          <li>Created multiple recurring dashboards in <strong>Power BI</strong> tracking KPIs such as load factor, fuel consumption variance, and baggage handling SLAs, with data pulled via <strong>Amazon Redshift</strong> and <strong>DBT</strong>.</li>
+          <li>Collaborated with senior data scientists to support an ancillary revenue analysis project, contributing to data extraction, feature engineering, and model validation using <strong>NumPy, Matplotlib, Databricks, SciPy, and Git</strong>.</li>
         </ul>
       </div>
-
       <div class="xp">
         <div class="xp-header">
-          <div class="xp-role">Senior Data Research Analyst</div>
-          <span class="xp-period">Jul 2022 – Oct 2022</span>
+          <div class="xp-role">Sr. Representative — Data Analyst (BFSI Domain)</div>
+          <span class="xp-period">Sep 2021 – Dec 2022</span>
         </div>
-        <div class="xp-co"><strong>Morningstar</strong> &nbsp;·&nbsp; Navi Mumbai, MH</div>
+        <div class="xp-co"><strong>Concentrix</strong> &nbsp;·&nbsp; Hyderabad, TG</div>
         <ul class="xp-pts">
-          <li>Reduced escalation volume by 20%, saving 150+ hours annually through structured governance improvements.</li>
-          <li>Mentored 10+ analysts, elevating QA standards and output quality division-wide.</li>
+          <li>Migrated complex legacy SQL queries into <strong>Oracle SQL</strong>, optimizing data transformations and improving query performance by 25% while ensuring accuracy across financial reporting and regulatory datasets.</li>
+          <li>Designed and developed interactive dashboards using <strong>Power BI, DAX, and Power Query</strong>, enabling real-time KPI tracking, drill-down analysis, and improving decision-making speed by 30%.</li>
+          <li>Developed and managed ETL workflows using <strong>Power Query, SQL transformations, and ETL tools</strong>, extracting, cleaning, and loading data from multiple sources, improving data availability by 35%.</li>
+          <li>Automated reporting workflows using <strong>Excel macros, Power BI Service, and scheduled refresh pipelines</strong>, reducing manual effort by 40% and ensuring consistent delivery of client-facing reports.</li>
+          <li>Performed exploratory data analysis, data preprocessing, and feature engineering using <strong>Python scripting, Pandas, and NumPy</strong>, identifying trends and anomalies while improving stakeholder insights by 20%.</li>
         </ul>
       </div>
-
       <div class="xp">
         <div class="xp-header">
-          <div class="xp-role">Data Research Analyst</div>
-          <span class="xp-period">Nov 2020 – Jun 2022</span>
+          <div class="xp-role">Process Associate — Real Estate Analytics</div>
+          <span class="xp-period">Jul 2021 – Sep 2021</span>
         </div>
-        <div class="xp-co"><strong>Morningstar</strong> &nbsp;·&nbsp; Navi Mumbai, MH</div>
+        <div class="xp-co"><strong>RealPage</strong> &nbsp;·&nbsp; Hyderabad, TG</div>
         <ul class="xp-pts">
-          <li>Managed ESG and mutual fund workflows ensuring 99%+ data accuracy across high-volume datasets.</li>
-          <li>Led QA and Root Cause Analysis initiatives with structured corrective reporting.</li>
-          <li>Implemented ML-driven workflow enhancements; launched division-wide ideathon fostering innovation culture.</li>
+          <li>Cleaned and validated real estate transaction datasets using <strong>Excel, SQL basics, and data quality checks</strong>, improving data consistency by 20% for reporting and analytics workflows.</li>
+          <li>Assisted in preparing structured reports using <strong>Excel and Google Sheets</strong>, enabling stakeholders to track leasing performance and operational metrics effectively.</li>
         </ul>
       </div>
-
-      <div class="xp">
-        <div class="xp-header">
-          <div class="xp-role">Manager — Service &amp; Operations</div>
-          <span class="xp-period">Jul 2017 – May 2020</span>
-        </div>
-        <div class="xp-co"><strong>Garuda Power Pvt. Ltd.</strong> &nbsp;·&nbsp; Guwahati, AS</div>
-        <ul class="xp-pts">
-          <li>Directed O&amp;M programs sustaining 99% uptime and contributing ~10% revenue through operational excellence.</li>
-          <li>Led 10-member technical team; implemented preventive maintenance and inventory management frameworks.</li>
-          <li>Built executive dashboards for SLA and risk tracking; eliminated recurring failures via Root Cause Analysis.</li>
-        </ul>
-      </div>
-
     </div>
   </div>
 </section>
-
 <div class="hr"></div>
-
 <!-- PROJECTS -->
 <section class="sec alt" id="projects">
   <div class="sec-max">
@@ -769,23 +745,35 @@ footer {
     <h2 class="sec-title">Key <em>Projects</em></h2>
     <div class="pj-grid">
       <div class="pj">
-        <div class="pj-type">Market Strategy · 2024</div>
-        <h3 class="pj-title">Global Leadership Program – Market Entry Strategy</h3>
-        <div class="pj-org">SMU Cox School of Business</div>
-        <p class="pj-desc">Advised a European HR tech company on Germany market entry. Designed firmographic, behavioral, and demographic lead scoring models and a multi-stage funnel strategy (TOFU–MOFU–BOFU) fully aligned with ROI benchmarks and sales readiness criteria.</p>
+        <div class="pj-type">IoT &amp; Computer Vision · Hackathon</div>
+        <h3 class="pj-title">Accident Detection &amp; Alert System Using IoT</h3>
+        <div class="pj-org">36-Hour Hackathon · JNTU Hyderabad, India &nbsp;·&nbsp; <a href="https://github.com/krishna-lohith" target="_blank" style="color:var(--teal);text-decoration:none;">github.com/krishna-lohith</a></div>
+        <p class="pj-desc">Designed and developed a real-time accident detection system using IoT sensors and Raspberry Pi, implementing data logging and alert automation in Python with GPS integration to trigger real-time notifications with location details to emergency services.</p>
+        <div class="pj-stack">
+          <span class="pj-tag">Python</span>
+          <span class="pj-tag">Raspberry Pi</span>
+          <span class="pj-tag">IoT Sensors</span>
+          <span class="pj-tag">GPS Integration</span>
+          <span class="pj-tag">Embedded Systems</span>
+          <span class="pj-tag">Alert Automation</span>
+        </div>
       </div>
       <div class="pj">
-        <div class="pj-type">Venture Capital · 2024</div>
-        <h3 class="pj-title">Venture Capital Practicum – Series A Due Diligence</h3>
-        <div class="pj-org">SMU Cox School of Business</div>
-        <p class="pj-desc">Conducted comprehensive due diligence on a cybersecurity startup, built a $100K financial model, analyzed multiple growth scenarios, and contributed to an investment memo presented directly to the SMU Venture Fund committee.</p>
+        <div class="pj-type">Computer Vision · ML</div>
+        <h3 class="pj-title">Computer Vision-Based Image Analysis</h3>
+        <div class="pj-org">36-Hour Hackathon · JNTU Hyderabad, India &nbsp;·&nbsp; 🏆 1st Prize</div>
+        <p class="pj-desc">Developed a computer vision-based analysis project during a 36-hour hackathon, applying image processing and ML techniques to extract insights from visual data. Secured 1st prize among all participating teams with a fully functional end-to-end solution built under time pressure.</p>
+        <div class="pj-stack">
+          <span class="pj-tag">Python</span>
+          <span class="pj-tag">Computer Vision</span>
+          <span class="pj-tag">Image Processing</span>
+          <span class="pj-tag">Machine Learning</span>
+        </div>
       </div>
     </div>
   </div>
 </section>
-
 <div class="hr"></div>
-
 <!-- EDUCATION -->
 <section class="sec" id="education">
   <div class="sec-max">
@@ -795,25 +783,23 @@ footer {
       <div class="edu">
         <div class="edu-icon"><svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
         <div>
-          <div class="edu-deg">Master of Business Administration — Finance</div>
-          <div class="edu-sch">Southern Methodist University, Cox School of Business · Dallas, TX</div>
-          <div class="edu-yr">2023 – 2025</div>
+          <div class="edu-deg">Master of Science · Computer Science</div>
+          <div class="edu-sch">Auburn University · Montgomery, AL</div>
+          <div class="edu-yr">May 2025</div>
         </div>
       </div>
       <div class="edu">
         <div class="edu-icon"><svg viewBox="0 0 24 24"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="13 2 13 9 20 9"/></svg></div>
         <div>
-          <div class="edu-deg">Bachelor of Engineering — Electrical Engineering</div>
-          <div class="edu-sch">Bineswar Brahma Engineering College · Kokrajhar, AS</div>
-          <div class="edu-yr">2013 – 2017</div>
+          <div class="edu-deg">Bachelor of Technology · Electronics &amp; Communication Engineering</div>
+          <div class="edu-sch">Anurag University · Hyderabad, TG</div>
+          <div class="edu-yr">Oct 2020</div>
         </div>
       </div>
     </div>
   </div>
 </section>
-
 <div class="hr"></div>
-
 <!-- CONTACT -->
 <section class="sec alt" id="contact">
   <div class="sec-max">
@@ -821,46 +807,45 @@ footer {
       <div>
         <div class="overline">Let's Connect</div>
         <h2 class="ct-hl">Open to new<br><em>opportunities</em></h2>
-        <div class="ct-avail"><div class="avail-dot"></div>Available · Dallas, TX · Open to Relocation</div>
-        <p class="ct-sub">Whether you need a seasoned Program Manager to lead your next digital transformation or a strategic partner for cross-functional delivery — let's start a conversation.</p>
-        <a href="mailto:arindamsaikia45@gmail.com" class="btn-a">Send a Message &rarr;</a>
+        <div class="ct-avail"><div class="avail-dot"></div>Available · Atlanta, GA · Open to Relocation</div>
+        <p class="ct-sub">Whether you need an experienced AI/ML Engineer to build and deploy production-grade ML systems, GenAI pipelines, or MLOps infrastructure — let's start a conversation.</p>
+        <a href="mailto:lohith.mothu@gmail.com" class="btn-a">Send a Message &rarr;</a>
       </div>
       <div class="ct-links">
-        <a class="ct-row" href="tel:4697556115">
+        <a class="ct-row" href="tel:+17408443457">
           <div class="ct-ico"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.58 1.2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.73a16 16 0 0 0 6.29 6.29l1.8-1.8a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
-          <div><span class="ct-lbl">Phone</span><span class="ct-val">(469) 755-6115</span></div>
+          <div><span class="ct-lbl">Phone</span><span class="ct-val">+1 (740) 844-3457</span></div>
         </a>
-        <a class="ct-row" href="mailto:arindamsaikia45@gmail.com">
+        <a class="ct-row" href="mailto:lohith.mothu@gmail.com">
           <div class="ct-ico"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
-          <div><span class="ct-lbl">Email</span><span class="ct-val">arindamsaikia45@gmail.com</span></div>
+          <div><span class="ct-lbl">Email</span><span class="ct-val">lohith.mothu@gmail.com</span></div>
         </a>
-        <a class="ct-row" href="https://linkedin.com/in/arindamsaikia" target="_blank">
+        <a class="ct-row" href="https://www.linkedin.com/in/lohithmothu" target="_blank">
           <div class="ct-ico"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></div>
-          <div><span class="ct-lbl">LinkedIn</span><span class="ct-val">linkedin.com/in/arindamsaikia</span></div>
+          <div><span class="ct-lbl">LinkedIn</span><span class="ct-val">linkedin.com/in/lohithmothu</span></div>
         </a>
-        <a class="ct-row" href="https://github.com/ArindamSaikia9" target="_blank">
+        <a class="ct-row" href="https://github.com/krishna-lohith" target="_blank">
           <div class="ct-ico"><svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></div>
-          <div><span class="ct-lbl">GitHub</span><span class="ct-val">github.com/ArindamSaikia9</span></div>
+          <div><span class="ct-lbl">GitHub</span><span class="ct-val">github.com/krishna-lohith</span></div>
         </a>
         <a class="ct-row" href="#">
           <div class="ct-ico"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-          <div><span class="ct-lbl">Location</span><span class="ct-val">Dallas, TX — Open to Relocation</span></div>
+          <div><span class="ct-lbl">Location</span><span class="ct-val">Atlanta, GA · Open to Relocation</span></div>
         </a>
       </div>
     </div>
   </div>
 </section>
-
 <!-- FOOTER -->
 <footer>
-  <div class="ft-l">Arindam Saikia</div>
-  <div class="ft-c">&copy; 2026 Arindam Saikia &nbsp;·&nbsp; All Rights Reserved</div>
+  <div class="ft-l">Lohith Mothukuri</div>
+  <div class="ft-c">&copy; 2026 Lohith Mothukuri &nbsp;·&nbsp; AI/ML Engineer</div>
   <div class="ft-r">
-    <a href="#home">Top</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
     <a href="#experience">Experience</a>
     <a href="#contact">Contact</a>
   </div>
 </footer>
-
 </body>
 </html>
